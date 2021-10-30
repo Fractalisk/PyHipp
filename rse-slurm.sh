@@ -19,7 +19,7 @@ python -u -c "import PyHipp as pyh; \
 	import time; \
 	t0 = time.time(); \
 	print(time.localtime()); \
-	s.chdir('sessioneye'); \
+	os.chdir('sessioneye'); \
 	pyh.RPLSplit(SkipLFP=False, SkipHighPass=False); \
 	print(time.time()-t0);"
 
