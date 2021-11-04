@@ -55,7 +55,6 @@ with lock:
             # add code here
             # return env name
             env = clist.pop(0)
-            print(env)
 
     # save hickle file
     hickle.dump(clist, file_path, mode="w")
