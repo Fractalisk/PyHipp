@@ -27,4 +27,4 @@ python -u -c "import PyHipp as pyh; \
 	print(time.localtime()); \
 	print(time.time()-t0);"
 
-aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:150319979942:awsnotify --message "RPLParallelJobDone"
+#aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:150319979942:awsnotify --message "RPLParallelJobDone"
